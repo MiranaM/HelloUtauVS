@@ -23,7 +23,7 @@ namespace HelloUtauVS
 
         private void samplePlug_Load(object sender, EventArgs e)
         {
-            textBox1.Lines = args;      
+            textBox1.Lines = args;             
             
             
         }
