@@ -18,13 +18,11 @@ namespace HelloUtauVS
         {
             InitializeComponent();
             args = Environment.GetCommandLineArgs();
-
         }
 
         private void samplePlug_Load(object sender, EventArgs e)
         {
-            textBox1.Lines = args;             
-            
+            textBox1.Lines = args;          
             
         }
     }
