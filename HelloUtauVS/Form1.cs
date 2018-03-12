@@ -10,11 +10,22 @@ using System.Windows.Forms;
 
 namespace HelloUtauVS
 {
-    public partial class Form1 : Form
+    public partial class samplePlug : Form
     {
-        public Form1()
+        private string[] args;
+
+        public samplePlug()
         {
             InitializeComponent();
+            args = Environment.GetCommandLineArgs();
+
+        }
+
+        private void samplePlug_Load(object sender, EventArgs e)
+        {
+            textBox1.Lines = args;      
+            
+            
         }
     }
 }
